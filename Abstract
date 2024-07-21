@@ -1,0 +1,12 @@
+Secure cloud storage, which is an emerging cloud service, is designed to protect
+the confidentiality of outsourced data but also to provide flexible data access for
+cloud users whose data is out of physical control. Ciphertext-Policy AttributeBased Encryption (CP-ABE) is regarded as one of the most promising techniques
+that may be leveraged to secure the guarantee of the service. However, the use of
+CP-ABE may yield an inevitable security breach which is known as the misuse of
+access credential (i.e. decryption rights), due to the intrinsic “all-or-nothing”
+decryption feature of CP-ABE. In this paper, we investigate the two main cases of
+access credential misuse: one is on the semi-trusted authority side, and the other is
+on the side of cloud user. To mitigate the misuse, we propose the first accountable
+authority and revocable CP-ABE based cloud storage system with white-box
+traceability and auditing, referred to as CryptCloud+. We also present the security
+analysis and further demonstrate the utility of our system via experiments.
